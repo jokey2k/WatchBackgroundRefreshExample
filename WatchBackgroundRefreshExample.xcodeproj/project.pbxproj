@@ -20,6 +20,7 @@
 		631CEE1727F2261800B148C7 /* WatchBackgroundRefreshExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CEE1627F2261800B148C7 /* WatchBackgroundRefreshExampleTests.swift */; };
 		631CEE2127F2261900B148C7 /* WatchBackgroundRefreshExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CEE2027F2261900B148C7 /* WatchBackgroundRefreshExampleUITests.swift */; };
 		631CEE2327F2261900B148C7 /* WatchBackgroundRefreshExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CEE2227F2261900B148C7 /* WatchBackgroundRefreshExampleUITestsLaunchTests.swift */; };
+		631CEE3827F22BF400B148C7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CEE3727F22BF400B148C7 /* ExtensionDelegate.swift */; };
 		631CEE3A27F22F6F00B148C7 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CEE3927F22F6F00B148C7 /* Logging.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		631CEE1C27F2261900B148C7 /* WatchBackgroundRefreshExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchBackgroundRefreshExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631CEE2027F2261900B148C7 /* WatchBackgroundRefreshExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBackgroundRefreshExampleUITests.swift; sourceTree = "<group>"; };
 		631CEE2227F2261900B148C7 /* WatchBackgroundRefreshExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBackgroundRefreshExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		631CEE3727F22BF400B148C7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		631CEE3927F22F6F00B148C7 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +171,7 @@
 				631CEE0C27F2261800B148C7 /* Info.plist */,
 				631CEE0D27F2261800B148C7 /* PushNotificationPayload.apns */,
 				631CEE0927F2261800B148C7 /* Preview Content */,
+				631CEE3727F22BF400B148C7 /* ExtensionDelegate.swift */,
 				631CEE3927F22F6F00B148C7 /* Logging.swift */,
 			);
 			path = "WatchBackgroundRefreshExample WatchKit Extension";
@@ -388,6 +391,7 @@
 			files = (
 				631CEE0227F2261800B148C7 /* NotificationController.swift in Sources */,
 				631CEE0027F2261800B148C7 /* ContentView.swift in Sources */,
+				631CEE3827F22BF400B148C7 /* ExtensionDelegate.swift in Sources */,
 				631CEE3A27F22F6F00B148C7 /* Logging.swift in Sources */,
 				631CEE0627F2261800B148C7 /* ComplicationController.swift in Sources */,
 				631CEDFE27F2261800B148C7 /* WatchBackgroundRefreshExampleApp.swift in Sources */,

@@ -1,0 +1,15 @@
+This serves as a minimalistic example on how to schedule and perform a background refresh including a background fetch task.
+
+Developed and tested on watchOS 8.5
+Regarding project settings, take a look at git commits to see needed parameters.
+
+The fetch itself is delayed in a way so it can be coalesced by the OS.
+In the simulator trigger some fetch action like icloud sync to perform the refresh here.
+If the app has an active complication, this might be processed right when the task itself is running.
+
+Note about the example:
+The active refresh task needs to be stored in the delegate so it can be acknowledged only until after the background fetch is complete.
+Otherwise the app would be put back to sleep too soon.
+So be careful and only start one background task at a time as the other will be sometimes dropped by the system and tracking would get lost.
+
+Uses the news items available for learning purposes from @twostraws
